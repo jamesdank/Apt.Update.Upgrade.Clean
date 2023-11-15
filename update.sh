@@ -2,10 +2,10 @@
 
 #####################################################################
 # Sound Files
-UPDATE="/home/$USER/update.mp3"
-UPGRADE="/home/$USER/upgrade.mp3"
-CLEAN="/home/$USER/clean.mp3"
-READY="/home/$USER/ready.mp3"
+UPDATE="/home/$USER/apt.update.upgrade.clean/mp3/update.mp3"
+UPGRADE="/home/$USER/apt.update.upgrade.clean/mp3/upgrade.mp3"
+CLEAN="/home/$USER/apt.update.upgrade.clean/mp3/clean.mp3"
+READY="/home/$USER/apt.update.upgrade.clean/mp3/ready.mp3"
 #####################################################################
 
 if ! command -v ffplay &> /dev/null
