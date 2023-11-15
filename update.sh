@@ -19,14 +19,14 @@ ffplay $UPDATE -autoexit -nodisp 2> /dev/null
 sleep 2 
 sudo apt update -y 
 
-echo -e "\nUpgrading system..." ;
-ffplay $UPGRADE -autoexit -nodisp 2> /dev/null ;
-sleep 2 ;
-sudo apt upgrade -y ;
+echo -e "\nUpgrading system..." 
+ffplay $UPGRADE -autoexit -nodisp 2> /dev/null 
+sleep 2 
+sudo apt upgrade -y 
         
-echo -e "\ncleaning up update files and purging unused packages..." ;
-ffplay $CLEAN -autoexit -nodisp 2> /dev/null ;
-sleep 2 ;
-sudo apt clean -y ;
-sudo apt autoremove ;
-ffplay $READY -autoexit -nodisp 2> /dev/null ; ;;
+echo -e "\ncleaning up update files and purging unused packages..." 
+ffplay $CLEAN -autoexit -nodisp 2> /dev/null 
+sleep 2 
+sudo apt clean -y 
+sudo apt autoremove -y
+ffplay $READY -autoexit -nodisp 2> /dev/null 
