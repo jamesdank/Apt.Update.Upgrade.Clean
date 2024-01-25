@@ -31,3 +31,5 @@ function update () {
     sudo apt autoremove -y
     ffplay $ready -autoexit -nodisp 2> /dev/null 
 }
+
+update
