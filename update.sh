@@ -3,10 +3,10 @@
 function update () {
     ##############################################################################
     # Sound Files
-    update="/home/$USER/Bash.Function.Apt.Update.Upgrade.Clean/mp3/update.mp3"
-    upgrade="/home/$USER/Bash.Function.Apt.Update.Upgrade.Clean/mp3/upgrade.mp3"
-    clean="/home/$USER/Bash.Function.Apt.Update.Upgrade.Clean/mp3/clean.mp3"
-    ready="/home/$USER/Bash.Function.Apt.Update.Upgrade.Clean/mp3/ready.mp3"
+    update="/home/$USER/Apt.Update.Upgrade.Clean/mp3/update.mp3"
+    upgrade="/home/$USER/Apt.Update.Upgrade.Clean/mp3/upgrade.mp3"
+    clean="/home/$USER/Apt.Update.Upgrade.Clean/mp3/clean.mp3"
+    ready="/home/$USER/Apt.Update.Upgrade.Clean/mp3/ready.mp3"
     ##############################################################################
 
     if [ ! command -v ffplay &> /dev/null ]; then
